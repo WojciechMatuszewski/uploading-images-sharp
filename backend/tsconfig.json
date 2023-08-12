@@ -1,0 +1,9 @@
+{
+	"extends": ["@tsconfig/strictest/tsconfig", "@tsconfig/node18/tsconfig.json"],
+	"compilerOptions": {
+		"composite": true,
+		"noEmit": true
+	},
+	"include": ["bin", "lib"],
+	"exclude": ["node_modules", "cdk.out"]
+}
