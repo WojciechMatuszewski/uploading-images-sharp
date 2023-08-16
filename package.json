@@ -1,7 +1,9 @@
 {
 	"scripts": {
 		"types": "turbo run types",
-		"format": "turbo run format"
+		"format": "turbo run format",
+		"dev": "turbo run dev --filter=frontend",
+		"deploy": "turbo run deploy --filter=backend"
 	},
 	"devDependencies": {
 		"@types/node": "18.17.5",

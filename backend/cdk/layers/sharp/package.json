@@ -1,0 +1,8 @@
+{
+	"scripts": {
+		"postinstall": "rm -rf nodejs/node_modules/ && mkdir -p nodejs && mv -f node_modules nodejs"
+	},
+	"dependencies": {
+		"sharp": "0.32.4"
+	}
+}

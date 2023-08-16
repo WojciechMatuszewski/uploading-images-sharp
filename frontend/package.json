@@ -1,5 +1,5 @@
 {
-	"name": "mini-instagram",
+	"name": "frontend",
 	"version": "0.1.0",
 	"private": true,
 	"scripts": {
@@ -11,10 +11,14 @@
 		"types": "tsc"
 	},
 	"dependencies": {
+		"@cloudinary/react": "1.11.2",
+		"@cloudinary/url-gen": "1.11.1",
 		"@types/react": "18.2.20",
 		"@types/react-dom": "18.2.7",
 		"autoprefixer": "10.4.14",
-		"next": "13.4.13",
+		"blurhash": "2.0.5",
+		"file-type": "18.5.0",
+		"next": "13.4.16",
 		"postcss": "8.4.27",
 		"react": "18.2.0",
 		"react-dom": "18.2.0",

@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.img-wrapper img {
+	transition: 2s ease-out;
+}

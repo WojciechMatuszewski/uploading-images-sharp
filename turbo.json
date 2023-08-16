@@ -4,6 +4,10 @@
 		"types": {
 			"cache": false
 		},
-		"format": {}
+		"format": {},
+		"dev": {},
+		"deploy": {
+			"outputs": ["./backend/cdk.out"]
+		}
 	}
 }
